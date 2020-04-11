@@ -1,0 +1,177 @@
+* {
+    font-family: "Calibri Light";
+}
+
+p{
+    text-align: justify;
+}
+p.tengah {
+    text-align: center;
+}
+h1,h2,h3 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url("../Media/Gambar/BG/BG2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+img.profile {
+    border: 10px solid black;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper {
+    background-color: rgba(225,225,225,0.7);
+    margin: 0 120px 0;
+    padding: 0 0 25px;
+}
+
+h1{
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+header {
+    padding: 25px;
+}
+
+section{
+    background-color: white;
+    margin: 0px 25px;
+    border-radius: 30px;
+    padding: 25px;
+}
+article{
+    font-size: 25px;
+    padding: 5px;
+}
+
+footer {
+    padding: 25px;
+}
+
+#nav,#nav ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#nav {
+    background: url(../Media/Gambar/Icon/menu.png) no-repeat scroll 0 0 transparent;
+    clear: both; font-size: 12px;
+    height: 58px;
+    padding: 0 0 0 9px;
+    position: relative;
+    width: fit-content;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:7px 7px 7px hsla(0, 0%, 45%, 0.53);
+    border-radius: 10px;
+}
+#nav ul {
+    background-color: #222;
+    border:1px solid #222;
+    border-radius: 0 5px 5px 5px;
+    border-width: 0 1px 1px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    left: -9999px;
+    overflow: hidden;
+    position: absolute;
+    top: -9999px;
+    z-index: 2;
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+}
+#nav li {
+    background: url(../Media/Gambar/Icon/menu_line.png) no-repeat scroll right 5px transparent;
+    float: left;
+    position: relative;
+}
+#nav li a {
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-weight: normal;
+    height: 30px;
+    padding: 23px 20px 0;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000000;
+}
+#nav li:hover gt a {
+    color: #00B4FF;
+}
+#nav li:hover, #nav a:focus, #nav a:hover, #nav a:active {
+    background: none repeat scroll 0 0 #121212;
+    outline: 0 none;
+}
+#nav li:hover ul.subs {
+    left: 0; top: 53px;
+    width: 180px;
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+#nav ul li {
+    background: none;
+    width: 100%;
+}
+#nav ul li a {
+    float: none;
+}
+#nav ul li:hover gt a {
+    background-color: #121212;
+    color: #00B4FF;
+}
+#lavalamp {
+    background: url(../Media/Gambar/Icon/lavalamp.png) no-repeat scroll 0 0 transparent;
+    height: 16px;
+    left: 13px;
+    position: absolute;
+    top: 0px;
+    width: 64px;
+
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+#lavalamp:hover {
+    -moz-transition-duration: 3000s;
+    -ms-transition-duration: 3000s;
+    -o-transition-duration: 3000s;
+    -webkit-transition-duration: 3000s;
+    transition-duration: 3000s;
+}
+
+#nav li:nth-of-type(1):hover ~ #lavalamp {
+    left: 13px;
+}
+#nav li:nth-of-type(2):hover ~ #lavalamp {
+    left: 85px;
+}
+#nav li:nth-of-type(3):hover ~ #lavalamp {
+    left: 160px;
+}
+#nav li:nth-of-type(4):hover ~ #lavalamp {
+    left: 250px;
+}
+#nav li:nth-of-type(5):hover ~ #lavalamp {
+    left: 380px;
+}

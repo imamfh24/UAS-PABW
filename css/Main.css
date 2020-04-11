@@ -1,0 +1,35 @@
+body{
+    background-image: url("../Media/Gambar/BG/BG1.jpg");
+    background-repeat: repeat-x;
+}
+.container {
+    width: 1080px;
+    margin: 20px auto 20px auto;
+    border: 5px solid #000000;
+    background-color: #ffffff;
+}
+
+header {
+    height: 120px;
+    width: auto;
+    background-color: aqua;
+    border-bottom: black;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+h3 {
+    text-align: center;
+    margin: 0px;
+}
+
+img.profile {
+    border: 10px solid black;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
